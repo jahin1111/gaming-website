@@ -3,6 +3,11 @@
     margin: 0;
     padding: 0;
 }
+/* .new{
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+} */
 .nav-container{
 
 min-height:100px ;
@@ -249,7 +254,7 @@ font-size: 13px;
     background-color: #ecc3db0f ;
 }
 .parent{
-    
+    border: 1px solid transparent;
     padding: 50px;
     margin: 50px auto;
     max-width: 1030px;
@@ -342,6 +347,10 @@ font-size: 13px;
 /* footer section end */
 
 
+.game-child1:hover{
+    opacity: .4;
+    color: #181416;
+}
 /* media quary start */
 @media screen and (max-width:882px) {
     .nav-container{

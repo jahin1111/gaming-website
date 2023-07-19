@@ -1,0 +1,398 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.nav-container{
+
+min-height:100px ;
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: white;
+width: 100%;
+}
+.nav-child1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-child1 img{
+    width: 50px;
+    height: 25px;
+}
+.span{
+    font-weight: bold;
+    color: #F948B2; 
+}
+.nav-child1 h2{
+    font-size: 1.75rem;
+    color: black;
+}
+.nav-child2{
+    display: flex;
+    gap: 2.5rem;
+    align-items: center;
+}
+.nav-child2 li{
+    list-style: none;
+    color: black;
+}
+.btn{
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+
+}
+.fa-brands{
+ margin-left: 5px;
+ color:black;
+ font-size: 16px;
+}
+.tiktok{
+    margin-left: 5px;
+    color: red;
+    font-size: 15px;  
+}
+/* navber section end */
+.hero-section{
+  
+    width:100vw;
+    display: flex;
+    height: 70vh;
+    background-image: url("images/Group 14.png");
+  
+}
+.hero-child1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+  
+   
+
+}
+.hero-child2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding:0px 10px;
+}
+.hero-child2 img{
+    width: 70%;
+}
+.hero-child1 h3{
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.hero-child1 span{
+    font-size:2.5rem;
+    color: #F948B2;
+    font-weight: bold;  
+    letter-spacing: 1px;
+    
+}
+.small-parent{
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+}
+small{
+margin-top: 5px;
+font-size: 13px;
+}
+.hero-btn{
+    margin-top: 15px;
+    margin-right: 17px;
+}
+.btn1{
+    background-color: #F948B2;
+    padding: 7px 15px;
+    border-radius:  20px;
+    border: none;
+    color: white;
+    font-size: 12px;
+}
+.btn2{
+    background-color: #4EC5F7;
+    padding: 7px 15px;
+    border-radius:  20px;
+    border: none;
+    color: white;
+    font-size: 12px;
+}
+
+/* hero section end */
+/* game section start */
+.game-section{
+   
+    display: grid;
+    margin: 50px auto;
+    max-width: 1030px;
+    min-width: 426px;
+    grid-template-columns: repeat(4,1fr);
+    gap: 12px;
+}
+.game-h2{
+    text-align: center;
+    font-size: 1.7rem;
+    margin-top: 25px;
+}
+.game-span{
+    color: #F948B2;  
+}
+.game-p{
+    text-align: center;
+    font-size: .8rem;
+    margin-top: 10px ;
+    color:gray;
+}
+
+.game-img{
+    color: rgba(0, 0, 0, 0.132);
+}
+.game-child1 img{
+    width: 100%;
+    height: 100%;
+    color: rgba(0, 0, 0, 0.132);
+  
+}
+
+
+.game-child1 p{
+    color: gray;
+    font-size: 13px;
+    margin-top: 8px;
+}
+/* game section end */
+/* online game section start */
+.online-parent{
+    display: flex;
+    margin: 100px auto;
+    max-width: 1030px;
+    min-width: 426px;
+    min-height: 50px;
+    
+}
+.online-child1{
+    width: 100%;
+    display: flex;
+}
+.online-child1 img{
+    width: 80%;
+    height: 80%;
+}
+.online-child1 .small-img{
+    height: 30%;
+    width: 30%;
+    margin-left:-14%;
+    margin-top: 53%;
+
+}
+.online-child2{
+    width: 100%;
+    padding-top: 8rem;
+    padding-left: 10rem;
+
+
+}
+.online-child2 span{
+    color: #F948B2;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    font-size: 25px;
+
+}
+.online-child2 p{
+    color: gray;
+    font-size: 13px;
+    margin-top: 20px;
+}
+        
+/* online game section end  */
+/* button section staert */
+.bg{
+    width: 100%;
+    background-color: #ecc3db0f ;
+}
+.parent{
+    
+    padding: 50px;
+    margin: 50px auto;
+    max-width: 1030px;
+    min-width: 426px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 12px;
+    background-color: #ecc3db00;
+    margin: 0 auto;
+    row-gap: 30px;
+}
+.child{
+    border-radius: 20px;
+    color: balck;
+    padding: 7px 10px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    background-color: whitesmoke;
+}
+.child:hover{
+    background-color: rgba(170, 149, 149, 0.489);
+}
+.child img{
+    width: 30px;
+}
+.child p{
+    font-size: 14px;
+}
+.child1{
+    border: 1px solid red;
+}
+
+
+
+/* button section end */
+
+
+
+/* media quary start */
+@media screen and (max-width:882px) {
+    .nav-container{
+        flex-direction: row;
+        padding: 10px;
+    }
+    .hero-section{
+        width:100vw;
+        display: flex;
+        height: 70vh;
+      
+    }
+    /* game section start */
+    .game-section{
+    
+        display: grid;
+        margin: 50px auto;
+        grid-template-columns:repeat(2,1fr);
+        padding: 20px 40px;
+        gap: 20px;
+        
+    }
+    .game-child1{
+        margin-top: 30px;
+        
+    }
+    .online-child2{
+        padding-top:5rem;
+        padding-left: 60px; 
+        padding-right: 45px;          
+    }
+    .online-child1{
+        padding-left:25px;
+    }
+    /* button section start */
+    .parent{
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    /* button section end */
+}
+@media screen and (max-width:426px) {
+    .nav-container{
+        flex-direction: column;
+        padding: 15px;
+        width: 100%;
+    }
+    .nav-child2{
+        flex-direction: column;
+    }
+    .nav-child2{
+        margin-top: 20px;
+    }
+    .hero-section{
+       display: grid;
+       grid-template-columns: 1fr;
+       height: 100vh;
+       width: 100vw;
+        
+    }
+    .hero-child2{
+        width: 100vw;
+        padding: 10px ;
+    }
+    .hero-child1{
+        width: 100vw;
+        padding: 10px ;
+    }
+    /* game section start */
+    .game-section{
+        display: grid;
+        margin: 50px auto;
+        grid-template-columns:1fr;
+        
+    }
+    .game-child1{
+        margin-top: 1px;
+        margin-bottom: -50px;
+    }
+    .game-child1 p{
+        color: gray;
+        font-size: 13px;
+        margin-top: 8px;
+        text-align: center;
+    }
+    .game-child1 img{
+        width: 80%;
+        height: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    /* online section start */
+
+
+    .online-parent{
+        flex-direction: column;
+        display: block;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .online-child2{
+        padding:2rem;
+        padding-left: 60px;
+        text-align: center;
+    }
+    .online-child2 p{
+        margin-top: 30px;
+    }
+    .online-child1{
+        padding-left:25px;
+    }
+    /* online section end */
+    /* button section :start */
+    .parent{
+        margin-top: 20px;
+        padding: 6px 26px;
+        grid-template-columns: repeat(3,1fr);
+        gap: 8px;
+        width: 50%;
+        padding: 4px 10px;
+        row-gap: 20px;
+        background-color: #ecc3db0f ;
+        padding-top: 50px;
+    }
+    .child p{
+        font-size: 10px;
+    }
+    .child4{
+        visibility: hidden;
+    }
+   .child{
+     padding: 0 20px;
+   }
+    /* button section :end */
+
+
+}

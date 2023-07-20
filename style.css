@@ -114,6 +114,7 @@ width: 100%;
     transform: rotate(90deg);
     color: rgba(255, 0, 0, 0.681);
     margin-left: 12px;
+    font-size: 12px;
 }
 .fa-user-group{
     font-size: 10px;
@@ -125,7 +126,19 @@ width: 100%;
 .play{
     display: flex;
     align-items: center;
+    column-gap: 7px;
 }
+.download{
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+.user{
+    display: flex;
+    align-items: center;
+   column-gap: 15px;
+}
+
 .x{
     margin-left: 6px;
 }
@@ -151,6 +164,11 @@ font-size: 13px;
     color: white;
     font-size: 12px;
 }
+.btn1:hover{
+    background-color:#F948B2 ;
+    opacity: 0.6;
+    color: white;
+}
 .btn2{
     background-color: #4EC5F7;
     padding: 10px 18px;
@@ -158,6 +176,11 @@ font-size: 13px;
     border: none;
     color: white;
     font-size: 12px;
+}
+.btn2:hover{
+    background-color:#4EC5F7 ;
+    opacity: 0.6;
+    color: white;
 }
 
 /* hero section end */
@@ -304,10 +327,11 @@ font-size: 13px;
     display: flex;
     justify-content: center;
     column-gap: 10px;
+    align-items: center;
 }
 .gamer img{
     width: 50px;
-    height: 15x;
+    height: 35px;
 }
 .gamer h2{
     color: white;
@@ -348,8 +372,9 @@ font-size: 13px;
 
 
 .game-child1:hover{
-    opacity: .4;
+    opacity: .3;
     color: #181416;
+  
 }
 /* media quary start */
 @media screen and (max-width:882px) {
